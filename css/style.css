@@ -1,0 +1,66 @@
+
+*{
+    font-family: "Quicksand", sans-serif;
+}
+
+strong{
+    font-weight: normal;
+}
+
+em{
+    font-style: normal;
+}
+
+
+
+.img-zapas{
+    background-color: #ecedef;
+}
+
+
+.boton-filtrar{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and  (min-width: 576px){
+ header{
+
+    background-color: #ffffff;
+ }
+
+}
+
+    
+/*  Medium devices (tablets, 768px and up) */
+@media screen and  (min-width: 768px) {
+header{
+    background: rgb(51,112,143);
+    background: linear-gradient(90deg, rgba(51,112,143,1) 0%, rgba(51,112,143,1) 35%, rgba(93,140,158,1) 100%);
+}
+
+
+
+
+    
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and  (min-width: 992px) {    
+ 
+   /*  .header-lg{display: block;}
+
+    .divheader-sm,
+    .header-sm{display: none;}
+    */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and  (min-width: 1200px) {}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media screen and  (min-width: 1400px) {}
