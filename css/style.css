@@ -1,0 +1,298 @@
+body{
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.tiendaMobile{
+    background-image: url(../img/background/adidas.png);
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.contenedorzapatillas{
+    background-color: #ecedefc2;
+  
+}
+
+
+.img-zapas{
+    background-color: #ecedef;
+}
+
+
+
+.boton-filtrar{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+
+
+
+.bannerUno{
+    background-color: black;
+    background-image: url(../img/intruduccion/dos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 2/1;
+    background-size: cover;
+    background-position-y:center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    
+    
+    
+   
+}
+
+.bannerunoflex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+.bannerunoflex a{
+    color: #ecedef;
+    text-decoration: none;
+}
+
+
+
+
+.bannerDos{
+    background-color: black;
+    background-image: url(../img/intruduccion/introsamba.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    aspect-ratio:2/1;
+    
+}
+
+.bannerTres{
+    background-color: black;
+    background-image: url(../img/intruduccion/introcampus.JPG);
+    background-repeat: no-repeat;
+    background-position-y: center ;
+    background-position-x: center ;
+
+    aspect-ratio: 2/1;
+    background-size: cover;
+    
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+   }
+
+   .cajabannerUno{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 100%);
+
+   }
+
+   .bannerDos,
+   .cajabannerUno span{
+    font-family: "Lacquer", system-ui;
+   }
+
+
+
+
+   .boton-violeta {
+  background-color: #7a288aaf; 
+  color: #FFFFFF; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+
+.boton-violeta + button{
+    border-color: #7a288aaf;
+    color: #7a288aaf;
+}
+
+
+.boton-violeta + button:hover,
+.boton-violeta:hover {
+  background-color: #5C1A7B; 
+
+}
+.precio,
+h3+span,
+strong,
+h2
+{
+    color: #7a288aaf;
+}
+
+.bannerDos .boton-violeta{
+    left: 50%;
+    margin-top: 0.5rem;
+}
+
+.bannerDos>div{
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+a.li-active.nav-link.active{
+   color: #5C1A7B;
+}
+
+
+ 
+  header{
+    padding-bottom: 1rem;
+    
+}
+
+
+
+.divIntro{
+    position: relative;
+    top: 40px;
+    }
+
+
+.divGral {
+    position: relative;
+    top: -54px;}
+
+.bannerForm{
+    background-image: url(../img/gif/cinco.webp);
+    aspect-ratio: 4/1;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border-top: solid 3px black;
+}
+
+
+
+.bannerLibre{
+   
+    aspect-ratio: 2/1;
+    background-color: black;
+    background-image: url(../img/seccionlibre/bannerlibre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+   
+}
+
+
+
+
+
+.bannerLibre{
+    width: 100%;
+    height: 100%;
+}
+
+.mainseccionlibre{
+    min-height: 50vh;
+    
+
+}
+
+.divGral {    
+    position: initial;
+    }
+
+    
+ .colapsable:not(.collapsed){
+    background-color: #7a288aaf ;
+    color: whitesmoke   ;
+   
+ }
+
+ .colapsable:focus {
+    
+    box-shadow: none;
+    
+    }
+ 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and  (min-width: 576px){
+ 
+    main{
+        margin-top: 2rem;       
+    }
+
+    
+}
+
+    
+/*  Medium devices (tablets, 768px and up) */
+@media screen and  (min-width: 768px) {
+
+    
+       
+    .bannerDos>div{
+        background:none;
+    }
+
+    
+.bannerDos>div{
+    top: 40%;
+  }
+
+       
+.formClass{
+    width: 75%;
+}
+
+
+    
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and  (min-width: 992px) {    
+
+
+    .bannerUno,
+    .bannerDos,
+    .bannerTres{       
+        aspect-ratio: 3/1;}
+ 
+        .textoForm{
+            z-index:1;
+            border-top: solid black 3px;
+        }
+}
+
+
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and  (min-width: 1200px) {}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media screen and  (min-width: 1400px) {}
